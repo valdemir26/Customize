@@ -124,12 +124,10 @@ sudo chroot chroot
 ```
 # Adicionando repositório
 Aqui eu vou mostrar duas opçoẽs de edição do sources.list
-
 - [ ]  Editor nano
 ```bash
 sudo nano /etc/apt/sources.list
 ```
-
 - [x] Com o comando cat
 ```bash
 cat > /etc/apt/sources.list << 'EOF'
@@ -149,11 +147,11 @@ deb http://deb.debian.org/debian bookworm-proposed-updates main non-free-firmwar
 EOF
 ```
 # Atualizar o sistema
-### <i class="icofont-rounded-right"></i>Atualizar o sistema
+Atualizar o sistema
 ```bash
 apt update && apt dist-upgrade
 ```
-### <i class="icofont-rounded-right"></i>Pacotes instalados por padrão no sistema:
+Pacotes instalados por padrão no sistema:
 ```bash
 apt-transport-https linux-image-amd64 live-boot live-config btrfs-progs build-essential curl dbus-x11 dkms genisoimage grub-common grub-efi-amd64 grub-efi-amd64-bin grub-efi-amd64-signed grub2-common  lsb-base rsync squashfs-tools openssl os-prober wget gnome-accessibility-themes gnome-backgrounds gnome-bluetooth-3-common gnome-bluetooth-sendto gnome-browser-connector gnome-control-center gnome-control-center-data gnome-desktop3-data gnome-disk-utility gnome-icon-theme gnome-initial-setup gnome-keyring gnome-keyring-pkcs11:amd64 gnome-menus gnome-online-accounts gnome-remote-desktop gnome-session gnome-session-bin gnome-session-common gnome-settings-daemon gnome-settings-daemon-common gnome-shell gnome-shell-common gnome-shell-extension-prefs gnome-shell-extensions gnome-software gnome-software-common gnome-sushi gnome-terminal gnome-terminal-data gnome-themes-extra:amd64 gnome-themes-extra-data gnome-tweaks gnome-user-share gnome-accessibility-themes gnome-backgrounds gnome-bluetooth-3-common gnome-bluetooth-sendto gnome-browser-connector gnome-control-center gnome-control-center-data gnome-desktop3-data gnome-disk-utility gnome-icon-theme gnome-initial-setup gnome-keyring gnome-keyring-pkcs11:amd64 gnome-menus gnome-online-accounts gnome-remote-desktop gnome-session gnome-session-bin gnome-session-common gnome-settings-daemon gnome-settings-daemon-common gnome-shell gnome-shell-common gnome-shell-extension-prefs gnome-shell-extensions gnome-software gnome-software-common gnome-sushi gnome-terminal gnome-terminal-data gnome-themes-extra:amd64 gnome-themes-extra-data gnome-tweaks gnome-user-share mutter nautilus gdm3 gedit file-roller
 ```
@@ -167,7 +165,7 @@ apt -f install
 rm -r *.deb
 ```
 # Calamares
-### <i class="icofont-rounded-right"></i>Instalar o calamares
+Instalar o calamares
 ```bash
 apt install calamares calamares-settings-debian
 ```
@@ -179,7 +177,6 @@ apt install amd64-microcode atmel-firmware bluez-firmware dahdi-firmware-nonfree
 Removendo arquivos de configuração
 Removendo arquivos temporários e finalizando o Chroot
 _Os arquivos temporários e o cache do APT, deve ser apagados para diminuir a ISO imagem a ser gerada. Neste ponto nós desmontaremos os filesystems e finalizar o chroot, pois apenas as tarefas de customização são necessárias neste ambiente, as terefas de criação da ISO devem ser feitas fora do chroot. Para remover os arquivos temporários e os outros arquivos que não serão mais necessários._
-
 Limpar o cache do APT
 ```bash
 apt autoclean
@@ -190,7 +187,7 @@ rm -rf /tmp/* ~/.bash.history
 rm /etc/resolv.conf
 rm /etc/hosts
 ```
-# _Desmontar filesystems_
+# Desmontar filesystems
 Desmontar os filesystems de customização não nescessários e finalizar o chroot
 ```bash
 sudo umount -lf chroot/dev
@@ -209,8 +206,8 @@ sudo rm mnt && sudo rm squashfs
 sudo rm chroot/vmlinuz && sudo rm chroot/vmlinuz.old
 sudo rm chroot/initrd.img && sudo rm chroot/initrd.img.old
 ```
-# _Squashfs_
-### Regerando os arquivos
+# Squashfs
+Regerando os arquivos
 Regeneranda o arquivo filesystem.manifest e filesystem.squashfs
 ```bash
 chmod +w antares/live/filesystem.manifest
@@ -219,8 +216,8 @@ sudo cp antares/live/filesystem.manifest antares/live/filesystem.manifest
 sudo rm antares/live/filesystem.squashfs
 sudo mksquashfs chroot antares/live/filesystem.squashfs -comp xz
 ```
-# _MD5sum_
-## <i class="icofont-rounded-right"></i>Criar o MD5sum
+# MD5sum
+Criar o MD5sum
 ```bash
 cd antares
 sudo rm md5sum.txt
