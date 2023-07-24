@@ -76,7 +76,7 @@ printf "%s\n" ${ISO}
 cp $ISO $HOME/Distro/
 ```
 # Extarir ISO
-Montar a ISO na pasta mnt
+Monta a ISO na pasta mnt
 ```bash
 sudo mount -o loop *.iso mnt
 ```
