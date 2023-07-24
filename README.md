@@ -26,7 +26,7 @@ Para um melhor entendimento do conteúdo aqui descrito, você deve usar a ISO qu
 ### Tópicos 
 
 - [Live CD](#Live-CD)
-- [Diretório principal](#Diretório-principal)
+- [Diretório principal](#Criar-diretório)
 - [Copiar ISO](#Copiar-ISO)
 - [Extarir a ISO](#Extarir-ISO)
 - [Executando chroot](#Executando-chroot)
@@ -47,7 +47,6 @@ Pré-requisitos
 _Agora, vamos criar um diretório para manipular os arquivos que utilizaremos durante todo processo._
 
  Pré-requesitos
-
 _Para criar o ambiente para customização, necessitamos de:_
 ```bash
 sudo apt install rsync zenity squashfs-tools genisoimage
@@ -56,7 +55,7 @@ Para virtualização
 ```bash
 sudo apt install gnome-boxes
 ```
-# Diretório principal
+# Criar diretório 
 Criar o diretório principal
 ```bash
 mkdir Distro && cd Distro
