@@ -200,7 +200,7 @@ sudo umount -lf mnt
 ```bash
 exit
 ```
-# _Excluir arquivos_
+# Excluir arquivos
 ```bash
 sudo rm mnt && sudo rm squashfs
 sudo rm chroot/vmlinuz && sudo rm chroot/vmlinuz.old
@@ -225,9 +225,8 @@ find -type f -print0 | xargs -0 md5sum | grep -v isolinux/boot.cat | tee md5sum.
 cd
 cd Distro
 ```
-# _Imagem ISO_
-### <i class="icofont-rounded-right"></i>Gerando a imagem ISO
-
+# Imagem ISO
+Gerando a imagem ISO
 ```bash
 genisoimage \
 -D -r -V “Antares-OS” \
@@ -238,12 +237,11 @@ genisoimage \
 -no-emul-boot -boot-load-size 4 \
 -o Antares-OS-amd64.iso antares/
 ```
-
-## <i class="icofont-rounded-right"></i>Excluir o diretório e subdiretório não vazio
+Excluir o diretório e subdiretório não vazio
 _Para excluir o diretório e os subdiretórios que não estejam vazios, é necessário desmontar o ponto de montagem, use a opção -R (recursiva). Para ser claro, isso remove os diretórios e todos os arquivos e subdiretórios contidos neles:_
 
-# _Excluir diretório_
-### <i class="icofont-rounded-right"></i>Excluir diretório de customização
+# Excluir diretório
+Excluir diretório de customização
 ```bash
 sudo rm -r Distro
 ```
