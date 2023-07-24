@@ -196,7 +196,7 @@ sudo umount -lf chroot/sys
 sudo umount -lf squashfs
 sudo umount -lf mnt
 ```
-# _Sair_
+# Finalizar chroot
 ```bash
 exit
 ```
