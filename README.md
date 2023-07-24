@@ -67,7 +67,7 @@ Ativando o módulo do Kernel
 ```bash
 sudo modprobe squashfs
 ```
-# _Copiar ISO_
+# Copiar ISO
 Copia a ISO para o ambiente de customização
 ```bash
 ISO=$(zenity --file-selection --separator=" " --multiple --title "Escolha a ISO para copiar");
@@ -75,7 +75,7 @@ printf "%s\n" ${ISO}
 [ -z "$ISO" ] && { zenity --error --title "Copiar" --text "O Processo foi cancelado pelo usuário" 2>/dev/null;exit;}
 cp $ISO $HOME/Distro/
 ```
-# _Extarir ISO_
+# Extarir ISO
 Montar a ISO na pasta mnt
 ```bash
 sudo mount -o loop *.iso mnt
@@ -96,7 +96,7 @@ Permissão na pasta onde vai ser criado os novos arquivos
 ```bash
 sudo chmod -R 755 antares && sudo chmod -R 755 antares/
 ```
-# _Executando chroot_
+# Executando chroot
 Configuração de ambiente para uso do chroot
 Copia o arquivo /etc/resolv.conf para chroot/etc/
 ```bash
@@ -157,7 +157,7 @@ apt update && apt dist-upgrade
 ```bash
 apt-transport-https linux-image-amd64 live-boot live-config btrfs-progs build-essential curl dbus-x11 dkms genisoimage grub-common grub-efi-amd64 grub-efi-amd64-bin grub-efi-amd64-signed grub2-common  lsb-base rsync squashfs-tools openssl os-prober wget gnome-accessibility-themes gnome-backgrounds gnome-bluetooth-3-common gnome-bluetooth-sendto gnome-browser-connector gnome-control-center gnome-control-center-data gnome-desktop3-data gnome-disk-utility gnome-icon-theme gnome-initial-setup gnome-keyring gnome-keyring-pkcs11:amd64 gnome-menus gnome-online-accounts gnome-remote-desktop gnome-session gnome-session-bin gnome-session-common gnome-settings-daemon gnome-settings-daemon-common gnome-shell gnome-shell-common gnome-shell-extension-prefs gnome-shell-extensions gnome-software gnome-software-common gnome-sushi gnome-terminal gnome-terminal-data gnome-themes-extra:amd64 gnome-themes-extra-data gnome-tweaks gnome-user-share gnome-accessibility-themes gnome-backgrounds gnome-bluetooth-3-common gnome-bluetooth-sendto gnome-browser-connector gnome-control-center gnome-control-center-data gnome-desktop3-data gnome-disk-utility gnome-icon-theme gnome-initial-setup gnome-keyring gnome-keyring-pkcs11:amd64 gnome-menus gnome-online-accounts gnome-remote-desktop gnome-session gnome-session-bin gnome-session-common gnome-settings-daemon gnome-settings-daemon-common gnome-shell gnome-shell-common gnome-shell-extension-prefs gnome-shell-extensions gnome-software gnome-software-common gnome-sushi gnome-terminal gnome-terminal-data gnome-themes-extra:amd64 gnome-themes-extra-data gnome-tweaks gnome-user-share mutter nautilus gdm3 gedit file-roller
 ```
-### <i class="icofont-rounded-right"></i>Instalar pacotes extras
+Instalar pacotes extras
 Exemplo de instalação manual de programas extras, configuração e remoção
 ```bash
 cd home 
@@ -166,20 +166,18 @@ dpkg -i *.deb
 apt -f install 
 rm -r *.deb
 ```
-# _Calamares_
+# Calamares
 ### <i class="icofont-rounded-right"></i>Instalar o calamares
 ```bash
 apt install calamares calamares-settings-debian
 ```
-
-### <i class="icofont-rounded-right"></i>Instalar os drivers firmware-linux-nonfree
+Instalar os drivers firmware-linux-nonfree
 ```bash
 apt install amd64-microcode atmel-firmware bluez-firmware dahdi-firmware-nonfree firmware-amd-graphics firmware-ast firmware-ath9k-htc firmware-atheros firmware-bnx2 firmware-bnx2x firmware-brcm80211 firmware-cavium firmware-intel-sound firmware-ipw2x00 firmware-ivtv firmware-iwlwifi firmware-libertas firmware-linux firmware-linux-free firmware-linux-nonfree firmware-misc-nonfree firmware-myricom firmware-netronome firmware-netxen firmware-nvidia-tesla-gsp firmware-qcom-soc firmware-qlogic firmware-realtek firmware-realtek-rtl8723cs-bt firmware-samsung firmware-siano firmware-sof-signed firmware-ti-connectivity firmware-zd1211 intel-microcode hdmi2usb-fx2-firmware mesa-utils mesa-utils-bin:amd64 mesa-va-drivers:amd64 mesa-vdpau-drivers:amd64 mesa-vulkan-drivers:amd64
 ```
-# _Arquivos temporários_
-### <i class="icofont-rounded-right"></i>Removendo arquivos de configuração
+# Arquivos temporários
+Removendo arquivos de configuração
 Removendo arquivos temporários e finalizando o Chroot
-
 _Os arquivos temporários e o cache do APT, deve ser apagados para diminuir a ISO imagem a ser gerada. Neste ponto nós desmontaremos os filesystems e finalizar o chroot, pois apenas as tarefas de customização são necessárias neste ambiente, as terefas de criação da ISO devem ser feitas fora do chroot. Para remover os arquivos temporários e os outros arquivos que não serão mais necessários._
 
 Limpar o cache do APT
