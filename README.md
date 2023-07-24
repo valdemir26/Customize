@@ -42,7 +42,7 @@ Para um melhor entendimento do conteúdo aqui descrito, você deve usar a ISO qu
 - [Antares ISO](https://drive.google.com/file/d/1DpDENWoRBMyR_kDvH8HiqGmetE4pahAK/view?usp=drive_link)
 - [Desenvolvedor](#Desenvolvedor)
  
-# _Live CD_
+# Live CD
 Pré-requisitos
 _Agora, vamos criar um diretório para manipular os arquivos que utilizaremos durante todo processo._
 
@@ -56,7 +56,7 @@ Para virtualização
 ```bash
 sudo apt install gnome-boxes
 ```
-# _Diretório principal_
+# Diretório principal
 Criar o diretório principal
 ```bash
 mkdir Distro && cd Distro
