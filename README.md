@@ -154,7 +154,8 @@ apt update && apt dist-upgrade
 ```
 Pacotes instalados por padrão no sistema:
 ```bash
-apt-transport-https linux-image-amd64 live-boot live-config dbus-x11 dkms curl wget gnome-shell gnome-software gnome-session gnome-terminal nautilus network-manager-gnome mutter gdm3 xinit gnome-control-center xdg-user-dirs-gtk
+apt-transport-https linux-image-amd64 live-boot live-config dbus-x11 dkms curl wget gnome-shell gnome-software \
+gnome-session gnome-terminal nautilus network-manager-gnome mutter gdm3 xinit gnome-control-center xdg-user-dirs-gtk
 ```
 Instalar pacotes extras
 Exemplo de instalação manual de programas extras, configuração e remoção
