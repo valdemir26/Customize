@@ -43,8 +43,7 @@ Para um melhor entendimento do conteúdo aqui descrito, você deve usar a ISO qu
 - [Desenvolvedor](#Desenvolvedor)
  
 # _Live CD_
-### <i class="icofont-rounded-right"></i>Pré-requisitos
-
+Pré-requisitos
 _Agora, vamos criar um diretório para manipular os arquivos que utilizaremos durante todo processo._
 
  Pré-requesitos
@@ -58,8 +57,7 @@ Para virtualização
 sudo apt install gnome-boxes
 ```
 # _Diretório principal_
-### <i class="icofont-rounded-right"></i>Criar o diretório principal
-
+Criar o diretório principal
 ```bash
 mkdir Distro && cd Distro
 mkdir antares
@@ -101,7 +99,7 @@ Permissão na pasta onde vai ser criado os novos arquivos
 sudo chmod -R 755 antares && sudo chmod -R 755 antares/
 ```
 # _Executando chroot_
-### <i class="icofont-rounded-right"></i>Configuração de ambiente para uso do chroot
+Configuração de ambiente para uso do chroot
 Copia o arquivo /etc/resolv.conf para chroot/etc/
 ```bash
 sudo cp /etc/resolv.conf chroot/etc/
