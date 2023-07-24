@@ -45,7 +45,7 @@ Para um melhor entendimento do conteúdo aqui descrito, você deve usar a ISO qu
 Pré-requisitos
 _Agora, vamos criar um diretório para manipular os arquivos que utilizaremos durante todo processo._
 
- Pré-requesitos
+ ### Pré-requesitos
 
 _Para criar o ambiente para customização, necessitamos de:_
 ```bash
