@@ -56,7 +56,7 @@ Para virtualização
 sudo apt install gnome-boxes
 ```
 # Criar diretório 
-Criar o diretório principal
+Criar o diretório e os subdiretórios
 ```bash
 mkdir Distro && cd Distro
 mkdir antares
