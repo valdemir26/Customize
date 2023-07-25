@@ -20,7 +20,7 @@ Escolhi utilizar o processo manual de customização do GNU/Linux, utilizando o 
 # <p align="center"> _Requisito_
 Computador (Desktop ou Notebook) com Linux instalado e com suporte para o "squashfs" no kernel, desde 2006 o linux já possui suporte para o Squashfs no kernel, porém sugerimos utilizar a versão mais atual disponível.
 
-Para um melhor entendimento do conteúdo aqui descrito, você deve usar a ISO que está no link do tópico para ser usada como requisito do tutorial.
+Para um melhor entendimento do conteúdo aqui descrito, você deve usar a ISO que está no link do tópico, para ser usada como requisito do conteúdo.
       
 ### Tópicos 
 
