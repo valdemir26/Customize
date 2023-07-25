@@ -38,7 +38,7 @@ Para um melhor entendimento do conteúdo aqui descrito, você deve usar a ISO qu
 - [Criar o MD5sum](#MD5sum)
 - [Criar a Imagem ISO](#Imagem-ISO)
 - [Excluir diretório de customização](#Excluir-diretório)
-- [Antares ISO](https://drive.google.com/file/d/10QLqtox-Px-aFXzscw4JQiMbipou1fMm/view?usp=drive_link)
+- [ISO do Antares OS](https://drive.google.com/file/d/10QLqtox-Px-aFXzscw4JQiMbipou1fMm/view?usp=drive_link)
 - [Desenvolvedor](#Desenvolvedor)
  
 # Live CD
