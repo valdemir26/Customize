@@ -49,7 +49,7 @@ _Agora, vamos criar um diretório para manipular os arquivos que utilizaremos du
 
 _Para criar o ambiente para customização, necessitamos de:_
 ```bash
-sudo apt install rsync zenity squashfs-tools genisoimage
+sudo apt install rsync zenity squashfs-tools genisoimage xorriso
 ```
 Para virtualização
 ```bash
