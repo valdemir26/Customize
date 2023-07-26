@@ -228,16 +228,17 @@ cd
 cd Distro
 ```
 # Imagem ISO
-Gerando a imagem ISO
+Gerando a imagem ISO com genisoimage
 ```bash
 genisoimage \
--D -r -V “Antares-OS” \
--boot-info-table \
--cache-inodes -J -l \
--c isolinux/boot.cat \
--b isolinux/isolinux.bin \
--no-emul-boot -boot-load-size 4 \
--o Antares-OS-amd64.iso antares/
+-D -r -V “Antares-OS” -cache-inodes -J -l -b isolinux/isolinux.bin -c isolinux/boot.cat \
+-no-emul-boot -boot-load-size 4 -boot-info-table -o Antares-OS-amd64-$(date +%d-%m-%Y).iso antares/
+```
+Gerando a imagem ISO com xorriso
+```bash
+xorriso \
+-as mkisofs -iso-level 3 -c isolinux/boot.cat -b isolinux/isolinux.bin -no-emul-boot \
+-boot-load-size 4 -boot-info-table -o Antares-OS-amd64-$(date +%d-%m-%Y).iso antares/
 ```
 Excluir o diretório e subdiretório não vazio
 _Para excluir o diretório e os subdiretórios que não estejam vazios, é necessário desmontar o ponto de montagem, use a opção -R (recursiva). Para ser claro, isso remove os diretórios e todos os arquivos e subdiretórios contidos neles:_
