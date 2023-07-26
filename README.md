@@ -36,7 +36,7 @@ Para melhor entendimento do conteúdo aqui descrito, você deve usar a ISO que e
 - [Excluir arquivos desnecessários](#Excluir-arquivos)
 - [Criar o filesystem.manifest](#Squashfs)
 - [Criar o MD5sum](#MD5sum)
-- [Criar a Imagem ISO](#Imagem-ISO)
+- [Criando a Imagem ISO](#Imagem-ISO)
 - [Excluir diretório de customização](#Excluir-diretório)
 - [ISO do Antares OS](https://drive.google.com/file/d/10QLqtox-Px-aFXzscw4JQiMbipou1fMm/view?usp=drive_link)
 - [Desenvolvedor](#Desenvolvedor)
@@ -228,13 +228,13 @@ cd
 cd Distro
 ```
 # Imagem ISO
-Gerando a imagem ISO com genisoimage
+Criando a imagem ISO com genisoimage
 ```bash
 genisoimage \
 -D -r -V “Antares-OS” -cache-inodes -J -l -b isolinux/isolinux.bin -c isolinux/boot.cat \
 -no-emul-boot -boot-load-size 4 -boot-info-table -o Antares-OS-amd64-$(date +%d-%m-%Y).iso antares/
 ```
-Gerando a imagem ISO com xorriso
+Criando a imagem ISO com xorriso
 ```bash
 xorriso \
 -as mkisofs -iso-level 3 -c isolinux/boot.cat -b isolinux/isolinux.bin -no-emul-boot \
