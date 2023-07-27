@@ -165,6 +165,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 dpkg -i *.deb 
 apt -f install 
 rm -r *.deb
+cd
+cd Distro
 ```
 # Calamares
 Instalar o calamares
