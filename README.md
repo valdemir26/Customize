@@ -240,7 +240,7 @@ xorriso \
 -boot-load-size 4 -boot-info-table -o Antares-OS-amd64-$(date +%d-%m-%Y).iso antares/
 ```
 Excluir o diretório e subdiretório não vazio
-_Para excluir o diretório e os subdiretórios que não estejam vazios, é necessário desmontar o ponto de montagem, use a opção -R (recursiva). Para ser claro, isso remove os diretórios e todos os arquivos e subdiretórios contidos neles:_
+_Para excluir o diretório e os subdiretórios que não estejam vazios, é necessário desmontar o ponto de montagem, use a opção -r (recursiva). Para ser claro, isso remove os diretórios e todos os arquivos e subdiretórios contidos neles:_
 
 # Excluir diretório
 Excluir diretório de customização
