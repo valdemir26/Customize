@@ -191,7 +191,7 @@ rm /etc/hosts
 ```
 # Finalizar chroot
 ```bash
-edit
+exit
 ```
 # Desmontar filesystems
 Desmontar os filesystems de customização não nescessários e finalizar o chroot
