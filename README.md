@@ -209,8 +209,7 @@ sudo rm chroot/vmlinuz && sudo rm chroot/vmlinuz.old
 sudo rm chroot/initrd.img && sudo rm chroot/initrd.img.old
 ```
 # Squashfs
-Regerando os arquivos
-Regeneranda o arquivo filesystem.manifest e filesystem.squashfs
+Regerando os arquivos, o filesystem.manifest e filesystem.squashfs
 ```bash
 chmod +w antares/live/filesystem.manifest
 sudo chroot chroot dpkg-query -f '${binary:Package} ${Version}\n' -W > antares/live/filesystem.manifest
