@@ -20,7 +20,7 @@
 
 # <p align="center">_Como funciona_</p>
 Escolhi utilizar o processo manual de customização do GNU/Linux, utilizando o rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
-# <p align="center"> _Requisito_
+# <p align="center"> Requisito
 Computador (Desktop ou Notebook) com Linux instalado e com suporte para o "squashfs" no kernel, desde 2006 o linux já possui suporte para o Squashfs no kernel, porém sugerimos utilizar a versão mais atual disponível.
 
 Para melhor entendimento do conteúdo aqui descrito, você deve usar a ISO que está no link do tópico, para ser usada como requisito do conteúdo.
