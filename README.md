@@ -135,19 +135,10 @@ sudo nano /etc/apt/sources.list
 - [x] Com o comando cat
 ```bash
 cat > /etc/apt/sources.list << 'EOF'
-### Debian 12 bookworm
 deb http://deb.debian.org/debian bookworm main non-free-firmware contrib non-free
-deb-src http://deb.debian.org/debian bookworm main non-free-firmware contrib non-free
-
 deb http://deb.debian.org/debian bookworm-updates main non-free-firmware contrib non-free
-deb-src http://deb.debian.org/debian bookworm-updates main non-free-firmware contrib non-free
-
-deb http://security.debian.org/debian-security/ bookworm-security main non-free-firmware contrib non-free
-deb-src http://security.debian.org/debian-security/ bookworm-security main non-free-firmware contrib non-free
-
-deb http://deb.debian.org/debian bookworm-backports main non-free-firmware
-deb-src http://deb.debian.org/debian bookworm-backports main non-free-firmware
 deb http://deb.debian.org/debian bookworm-proposed-updates main non-free-firmware contrib non-free
+deb http://security.debian.org/debian-security/ bookworm-security main non-free-firmware contrib non-free
 EOF
 ```
 # Atualizar o sistema
