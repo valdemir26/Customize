@@ -191,6 +191,10 @@ rm -rf /tmp/* ~/.bash.history
 rm /etc/resolv.conf
 rm /etc/hosts
 ```
+# Finalizar chroot
+```bash
+edit
+```
 # Desmontar filesystems
 Desmontar os filesystems de customização não nescessários e finalizar o chroot
 ```bash
@@ -199,10 +203,6 @@ sudo umount -lf chroot/proc
 sudo umount -lf chroot/sys
 sudo umount -lf squashfs
 sudo umount -lf mnt
-```
-# Finalizar chroot
-```bash
-exit
 ```
 # Excluir arquivos
 ```bash
