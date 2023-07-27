@@ -5,7 +5,9 @@
 
 <img src="assets/img/antares.png" class="img-fluid" alt="">
 
-<img src="https://komarev.com/ghpvc/?username=valdemir26&color=yellow" alt="Profile views" /> [![NPM](https://img.shields.io/npm/l/react)](https://github.com/valdemir26/Customize/blob/main/LICENSE) [![iso](https://img.shields.io/badge/iso-images-cyan)](https://drive.google.com/file/d/10QLqtox-Px-aFXzscw4JQiMbipou1fMm/view?usp=drive_link)
+<img src="https://komarev.com/ghpvc/?username=valdemir26&color=yellow" alt="Profile views" /> 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/valdemir26/Customize/blob/main/LICENSE) 
+[![iso](https://img.shields.io/badge/iso-images-cyan)](https://drive.google.com/file/d/10QLqtox-Px-aFXzscw4JQiMbipou1fMm/view?usp=drive_link)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=fff&size=35&center=true&vCenter=true&width=1000&lines=Como+customizar+o+seu+GNU/Linux;rsync;zenity;chroot;squashfs-tools;genisoimage)](https://git.io/typing-svg)
 
