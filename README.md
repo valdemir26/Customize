@@ -18,6 +18,8 @@
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=valdemir26&bg_color=0d1117&color=fff&line=0563bb&point=272829&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
+<p align="center"> ![stats](https://github-readme-stats.vercel.app/api?username=valdemir26&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515&include_all_commits=1) </p>
+
 # <p align="center">_Como funciona_</p>
 Escolhi utilizar o processo manual de customização do GNU/Linux, utilizando o rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
 # <p align="center"> Requisito
