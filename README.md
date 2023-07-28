@@ -21,7 +21,7 @@
 # <p align="center">_Como funciona_</p>
 Escolhi utilizar o processo manual de customização do GNU/Linux, utilizando o rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
 # <p align="center"> Requisito
-Computador (Desktop ou Notebook) com Linux instalado e com suporte para o "squashfs" no kernel, porém sugiro utilizar a versão mais atual disponível.
+Computador (Desktop ou Notebook) com Linux instalado, porém sugiro utilizar a versão mais atual disponível.
 <p align="center">
 <img src="assets/img/gnome.png" class="img-fluid" alt="">
 </p>
