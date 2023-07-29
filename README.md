@@ -38,7 +38,8 @@ Para melhor entendimento do conteúdo aqui descrito, você deve usar a ISO que e
 - [Desenvolvedor](#Desenvolvedor)
  
 # Live CD
-Pré-requisitos
+### Pré-requisitos
+
 _Agora, vamos criar um diretório para manipular os arquivos que utilizaremos durante todo processo._
 
  ### Pré-requesitos
