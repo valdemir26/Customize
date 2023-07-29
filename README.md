@@ -42,8 +42,6 @@ Para melhor entendimento do conteúdo aqui descrito, você deve usar a ISO que e
 
 _Agora, vamos criar um diretório para manipular os arquivos que utilizaremos durante todo processo._
 
- ### Pré-requesitos
-
 _Para criar o ambiente para customização, necessitamos de:_
 ```bash
 sudo apt install rsync zenity squashfs-tools genisoimage xorriso
