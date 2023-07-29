@@ -198,8 +198,8 @@ sudo rm -r mnt && sudo rm -r squashfs
 ```
 # Excluir arquivos
 ```bash
-sudo rm chroot/vmlinuz && sudo rm chroot/vmlinuz.old
-sudo rm chroot/initrd.img && sudo rm chroot/initrd.img.old
+sudo rm -r chroot/vmlinuz && sudo rm -r chroot/vmlinuz.old
+sudo rm -r chroot/initrd.img && sudo rm -r chroot/initrd.img.old
 ```
 # Squashfs
 Regerando os arquivos, o filesystem.manifest e filesystem.squashfs
