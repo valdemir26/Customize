@@ -194,7 +194,7 @@ sudo umount -lf mnt
 ```
 # Excluir pastas temporárias
 ```bash
-sudo rm mnt && sudo rm squashfs
+sudo rm -r mnt && sudo rm -r squashfs
 ```
 # Excluir arquivos
 ```bash
