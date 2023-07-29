@@ -196,6 +196,11 @@ sudo umount -lf mnt
 sudo rm -r mnt && sudo rm -r squashfs
 ```
 # Excluir arquivos
+Remover kernel 
+```bash
+sudo apt remove --purge linux-image-amd64.xxx
+```
+Só em caso de atualização do Kernel esse comando deve ser executado
 ```bash
 sudo rm -r chroot/vmlinuz && sudo rm -r chroot/vmlinuz.old
 sudo rm -r chroot/initrd.img && sudo rm -r chroot/initrd.img.old
