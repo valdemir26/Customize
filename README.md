@@ -192,9 +192,12 @@ sudo umount -lf chroot/sys
 sudo umount -lf squashfs
 sudo umount -lf mnt
 ```
-# Excluir arquivos
+# Excluir pastas temporárias
 ```bash
 sudo rm mnt && sudo rm squashfs
+```
+# Excluir arquivos
+```bash
 sudo rm chroot/vmlinuz && sudo rm chroot/vmlinuz.old
 sudo rm chroot/initrd.img && sudo rm chroot/initrd.img.old
 ```
