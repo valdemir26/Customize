@@ -1,7 +1,4 @@
-# Como Criar 
-# sua Própria
-### Versão Customizada
-### do *GNU/Linux*
+# <p align="center">Como criar sua própria versão customizada do *GNU/Linux*</p>
 <!-- =======================================================
   * Template Name: Antares-OS - v2.0
   * Author: José Valdemir de Melo
