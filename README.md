@@ -263,7 +263,7 @@ sudo rm -r Distro
         &copy; Copyright <strong><span>Antares OS</span></strong>. 2018 2023 All Rights Reserved
       </div>
       <div class="credits">
-      Sobre mim <a href="https://www.facebook.com/josevaldemir.melo">José Valdemir de Melo</a>
+      Sobre mim <a href="https://jvmelo26.github.io/LinuxOS/">José Valdemir de Melo</a>
       </div>
     </div>
   </footer>
