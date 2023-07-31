@@ -260,7 +260,7 @@ sudo rm -r Distro
         <a href="https://www.instagram.com/josevaldemir.melo/" class="instagram"><i class="bx bxl-instagram"></i></a>   
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Antares OS</span></strong>. 2018 2023 All Rights Reserved
+        &copy; Copyright <strong><span>Antares OS</span></strong> 2020 2023 All Rights Reserved
       </div>
       <div class="credits">
       Sobre mim <a href="https://jvmelo26.github.io/LinuxOS/">José Valdemir de Melo</a>
