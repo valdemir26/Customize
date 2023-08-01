@@ -6,7 +6,7 @@
 <img src="assets/img/antares.png" class="img-fluid" alt="">
 </p>
 
-# <p align="center">Bem vindos Antarianos*</p>
+# <p align="center">*_Bem vindos Antarianos_*</p>
 
 # <p align="center">Como criar sua própria versão customizada do *GNU/Linux*</p>
 
