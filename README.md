@@ -23,23 +23,6 @@ Computador (Desktop ou Notebook) com Linux instalado, porém sugiro utilizar a v
 Para melhor entendimento do conteúdo aqui descrito, você deve usar a ISO que está no link do tópico, para ser usada como requisito do conteúdo.
       
 ### Tópicos 
-
-- [Live CD](#Live-CD)
-- [Diretório principal](#Criar-diretório)
-- [Copiar ISO](#Copiar-ISO)
-- [Extarir a ISO](#Extarir-ISO)
-- [Executando chroot](#Executando-chroot)
-- [Adicionando repositório](#Adicionando-repositório)
-- [Calamares](#Calamares)
-- [Arquivos temporários](#Arquivos-temporários)
-- [Desmontar OS filesystems](#Desmontar-filesystems)
-- [Excluir arquivos desnecessários](#Excluir-arquivos)
-- [Criar o filesystem.manifest](#Squashfs)
-- [Criar o MD5sum](#MD5sum)
-- [Criando a Imagem ISO](#Imagem-ISO)
-- [Excluir diretório de customização](#Excluir-diretório)
-- [ISO do Antares OS](https://drive.google.com/file/d/18yz-AZveVyXlG_KAA_554tu40PSdfsia/view?usp=drive_link)
-- [Desenvolvedor](#Desenvolvedor)
  
 # Live CD
 ### Pré-requisitos
