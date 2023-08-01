@@ -151,7 +151,6 @@ dpkg -i *.deb
 apt -f install 
 rm -r *.deb
 cd
-cd Distro
 ```
 # Calamares
 Instalar o calamares
