@@ -247,23 +247,26 @@ Excluir diretório de customização
 sudo rm -r Distro
 ```
 # Desenvolvedor
+   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="container">      
+    <div class="container">
+      <h3>Antares OS</h3>
       <h5 class="font-italic">
-      <div>Imagens ISOs customizada do GNU/Linux</div>
+      <div>Tudo sobre remasterização de imagens ISOs customizada do seu GNU/Linux.</div>
       </h5>
       <div class="social-links">
-        <a href="https://github.com/valdemir26/Customize#readme" class="telegram"><i class="bx bxl-github"></i></a>
-        <a href="https://t.me/jvmelo26linux" class="telegram"><i class="bx bxl-telegram"></i></a>
+        <a href="https://valdemir26.github.io/" class="telegram"><i class="bx bxl-github"></i></a>
+        <a href="https://www.youtube.com/@antaresOS/videos" class="telegram"><i class="bx bxl-youtube"></i></a>
+        <a href="https://t.me/valdemir26antaresOS" class="telegram"><i class="bx bxl-telegram"></i></a>
         <a href="https://twitter.com/jvmelo26?s=09" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="https://www.facebook.com/josevaldemir.melo" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://www.instagram.com/josevaldemir.melo/" class="instagram"><i class="bx bxl-instagram"></i></a>   
+        <a href="https://www.instagram.com/josevaldemir.melo/" class="instagram"><i class="bx bxl-instagram"></i></a> 
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>Antares OS</span></strong> 2020 2023 All Rights Reserved
+        &copy; Copyright <strong><span> Antares OS </span></strong> 2020 2023 All Rights Reserved
       </div>
       <div class="credits">
-      Sobre mim <a href="https://jvmelo26.github.io/LinuxOS/">José Valdemir de Melo</a>
+      Sobre meu trabalho: <a href="https://jvmelo26.github.io/LinuxOS/">José Valdemir de Melo</a>
       </div>
     </div>
   </footer>
