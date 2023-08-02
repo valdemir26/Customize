@@ -122,7 +122,8 @@ apt update && apt dist-upgrade
 ```
 Pacotes instalados por padrão no sistema:
 ```bash
-linux-image-amd64 live-boot live-config gnome-shell gnome-software gnome-session gnome-terminal nautilus mutter gdm3 xinit gnome-control-center xdg-user-dirs-gtk dbus-x11 wget isolinux openssl os-prober lsb-base grub-common grub2-common grub-efi-amd64 grub-efi-amd64-bin dkms
+linux-image-amd64 live-boot live-config gnome-shell gnome-software gnome-session gnome-terminal nautilus \
+mutter gdm3 xinit gnome-control-center xdg-user-dirs-gtk dbus-x11 wget isolinux openssl os-prober lsb-base grub-common grub2-common grub-efi-amd64 grub-efi-amd64-bin dkms
 ```
 Instalar pacotes extras
 Exemplo de instalação manual de programas extras, configuração e remoção
