@@ -142,6 +142,10 @@ Instalar o calamares
 ```bash
 apt install calamares calamares-settings-debian
 ```
+Remover lançador
+```bash
+rm -r /usr/share/applications/calamares.desktop.orig
+```
 Instalar os drivers firmware-linux-nonfree
 ```bash
 apt install firmware-amd-graphics firmware-ast firmware-ath9k-htc firmware-atheros firmware-bnx2 firmware-bnx2x \
@@ -188,7 +192,6 @@ sudo apt remove --purge linux-image-amd64.xxx
 ```
 Só em caso de atualização do Kernel esse comando deve ser executado, após a instalação
 ```bash
-sudo rm -r /usr/share/applications/calamares.desktop.orig
 sudo rm -r chroot/vmlinuz && sudo rm -r chroot/vmlinuz.old
 sudo rm -r chroot/initrd.img && sudo rm -r chroot/initrd.img.old
 ```
