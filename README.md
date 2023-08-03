@@ -20,7 +20,7 @@ Computador (Desktop ou Notebook) com Linux instalado, porém sugiro utilizar a v
 <p align="center">
 <img src="assets/img/gnome.png" class="img-fluid" alt="">
 </p>
-Para melhor entendimento do conteúdo aqui descrito, você deve usar a ISO que está no link do tópico, para ser usada como requisito do conteúdo.
+Para melhor entendimento do conteúdo aqui descrito, você deve usar a ISO que está no título do Readme.
   
 # Live CD
 ### Pré-requisitos
