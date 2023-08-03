@@ -62,11 +62,11 @@ Copiar os arquivos e sincroniza as pastas
 ```bash
 rsync --exclude=/live/filessystem.squashfs -a mnt/ antares
 ```
-Montar o sistema de arquivos na pasta squashfs
+Monta o sistema de arquivos na pasta squashfs
 ```bash
 sudo mount -t squashfs -o loop mnt/live/filesystem.squashfs squashfs
 ```
-Copiar os arquivos da pasta squashfs para a pasta chroot
+Copia os arquivos da pasta squashfs para a pasta chroot
 ```bash
 sudo cp -a squashfs/* chroot/
 ```
