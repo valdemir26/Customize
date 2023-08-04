@@ -127,7 +127,7 @@ os-prober lsb-base grub-common grub2-common grub-efi-amd64 grub-efi-amd64-bin
 Instalar pacotes extras
 Exemplo de instalação manual de programas extras, configuração e remoção
 ```bash
-cd home 
+cd $HOME/Distro/files
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
 dpkg -i *.deb 
 apt -f install 
