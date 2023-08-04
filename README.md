@@ -38,7 +38,7 @@ sudo apt install gnome-boxes
 # Criar diretório 
 Cria o diretório e os subdiretórios
 ```bash
-mkdir -p $HOME/Distro/{antares,chroot,mnt,squashfs,files}
+mkdir -p $HOME/Distro/{antares,chroot,mnt,squashfs}
 cd Distro
 ```
 Ativando o módulo do Kernel
@@ -127,7 +127,7 @@ os-prober lsb-base grub-common grub2-common grub-efi-amd64 grub-efi-amd64-bin
 Instalar pacotes extras
 Exemplo de instalação manual de programas extras, configuração e remoção
 ```bash
-cd $HOME/Distro/files
+cd home
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
 dpkg -i *.deb 
 apt -f install 
