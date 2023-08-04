@@ -128,7 +128,8 @@ Instalar pacotes extras
 Exemplo de instalação manual de programas extras, configuração e remoção
 ```bash
 cd home
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget https://az764295.vo.msecnd.net/stable/6445d93c81ebe42c4cbd7a60712e0b17d9463e97/code_1.81.0-1690980880_amd64.deb
 dpkg -i *.deb 
 apt -f install 
 rm -r *.deb
