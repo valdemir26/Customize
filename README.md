@@ -118,7 +118,7 @@ EOF
 # Atualizar o sistema
 Atualizar o sistema
 ```bash
-apt update && apt dist-upgrade
+apt update && apt dist-upgrade -y
 ```
 Pacotes instalados por padrão no sistema:
 ```bash
@@ -140,7 +140,8 @@ wget https://az764295.vo.msecnd.net/stable/6445d93c81ebe42c4cbd7a60712e0b17d9463
 Instalar com o dpkg e instalar as dependências
 ```bash
 dpkg -i *.deb 
-apt -f install
+apt -f install -y
+apt update && apt upgrade -y
 ```
 Remover programas desnecessários
 ```bash
