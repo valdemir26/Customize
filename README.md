@@ -204,7 +204,15 @@ Remover kernel se caso tenha sido atualizado
 ```bash
 sudo apt remove --purge linux-image-amd64.xxx
 ```
-Só em caso de atualização do Kernel esse comando deve ser executado, após a instalação
+Este comando exclue todos os arquivos da pasta live
+```bash
+sudo rm -r antares/live/*
+```
+Exclue pastas temporárias
+```bash
+sudo rm -r mnt && sudo rm -r squashfs
+```
+Exclue vmlinuz e initrd
 ```bash
 sudo rm -r chroot/vmlinuz && sudo rm -r chroot/vmlinuz.old
 sudo rm -r chroot/initrd.img && sudo rm -r chroot/initrd.img.old
