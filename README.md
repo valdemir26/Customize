@@ -50,7 +50,7 @@ Copia a ISO para o ambiente de customização
 ```bash
 Antares=$(zenity --file-selection --separator=" " --multiple --title "Escolha a ISO para copiar");
 printf "%s\n" ${Antares}
-[ -z "$Antares" ] && { zenity --error --title "Copiar" --text "O Processo foi cancelado pelo usuário" 2>/dev/null;exit;}
+[ -z "$Antares" ] && { zenity --error --title "Copiar" --text "Operação cancelada pelo usuário" 2>/dev/null;exit;}
 cp $Antares $HOME/Distro/
 ```
 # Extarir ISO
