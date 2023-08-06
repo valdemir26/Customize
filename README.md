@@ -58,7 +58,7 @@ Monta a ISO na pasta mnt
 ```bash
 sudo mount -o loop *.iso mnt
 ```
-Copia os arquivos e sincroniza as pastas mnt com antares
+Copia os arquivos e sincroniza as pastas mnt com a pasta antares
 ```bash
 rsync --exclude=/live/filessystem.squashfs -a mnt/ antares
 ```
