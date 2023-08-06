@@ -158,7 +158,7 @@ apt install calamares calamares-settings-debian
 ```
 Remover lançador
 ```bash
-rm -r /usr/share/applications/calamares.desktop.orig
+rm -r chroot/usr/share/applications/calamares.desktop.orig
 ```
 Instalar os drivers firmware-linux-nonfree
 ```bash
