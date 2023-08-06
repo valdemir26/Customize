@@ -144,7 +144,8 @@ firmware-linux firmware-linux-free firmware-linux-nonfree firmware-misc-nonfree 
 firmware-netxen firmware-nvidia-tesla-gsp firmware-qcom-soc firmware-qlogic firmware-realtek firmware-realtek-rtl8723cs-bt \
 firmware-samsung firmware-siano firmware-sof-signed firmware-ti-connectivity firmware-zd1211
 ```
-Instalar pacotes extras
+### Instalar pacotes extras
+
 Exemplo de instalação manual de programas extras, configuração e remoção
 ```bash
 cd home
