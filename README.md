@@ -129,7 +129,15 @@ os-prober lsb-base grub-common grub2-common grub-efi-amd64 grub-efi-amd64-bin
 ```
 Pacotes nescessários para intalação padrão
 ```bash
-
+apt install apt-transport-https build-essential btrfs-progs curl dbus-x11 dosfstools dkms e2fsprogs exfatprogs efibootmgr linux-image-amd64 live-boot live-config squashfs-tools genisoimage isolinux lsb-base grub-common grub2-common grub-efi-amd64 grub-efi-amd64-bin wget os-prober gnome-accessibility-themes gnome-calendar gnome-disk-utility gnome-shell gnome-shell-common gnome-shell-extension-prefs gnome-shell-extensions gnome-software gnome-session gnome-tweaks nautilus mutter gdm3 xinit gnome-control-center xdg-user-dirs-gtk gedit file-roller obs-studio telegram-desktop gnome-boxes
+```
+Instalar os drivers firmware-linux-nonfree
+```bash
+apt install firmware-amd-graphics firmware-ast firmware-ath9k-htc firmware-atheros firmware-bnx2 firmware-bnx2x \
+firmware-brcm80211 firmware-cavium firmware-intel-sound firmware-ipw2x00 firmware-ivtv firmware-iwlwifi firmware-libertas \
+firmware-linux firmware-linux-free firmware-linux-nonfree firmware-misc-nonfree firmware-myricom firmware-netronome \
+firmware-netxen firmware-nvidia-tesla-gsp firmware-qcom-soc firmware-qlogic firmware-realtek firmware-realtek-rtl8723cs-bt \
+firmware-samsung firmware-siano firmware-sof-signed firmware-ti-connectivity firmware-zd1211
 ```
 Instalar pacotes extras
 Exemplo de instalação manual de programas extras, configuração e remoção
@@ -163,14 +171,6 @@ apt install calamares calamares-settings-debian
 Remover lançador
 ```bash
 rm -r chroot/usr/share/applications/calamares.desktop.orig
-```
-Instalar os drivers firmware-linux-nonfree
-```bash
-apt install firmware-amd-graphics firmware-ast firmware-ath9k-htc firmware-atheros firmware-bnx2 firmware-bnx2x \
-firmware-brcm80211 firmware-cavium firmware-intel-sound firmware-ipw2x00 firmware-ivtv firmware-iwlwifi firmware-libertas \
-firmware-linux firmware-linux-free firmware-linux-nonfree firmware-misc-nonfree firmware-myricom firmware-netronome \
-firmware-netxen firmware-nvidia-tesla-gsp firmware-qcom-soc firmware-qlogic firmware-realtek firmware-realtek-rtl8723cs-bt \
-firmware-samsung firmware-siano firmware-sof-signed firmware-ti-connectivity firmware-zd1211
 ```
 # Arquivos temporários
 Removendo arquivos de configuração
