@@ -209,6 +209,11 @@ Só em caso de atualização do Kernel esse comando deve ser executado, após a 
 sudo rm -r chroot/vmlinuz && sudo rm -r chroot/vmlinuz.old
 sudo rm -r chroot/initrd.img && sudo rm -r chroot/initrd.img.old
 ```
+Copiar o vmlinuz e o initrd para a pasta live na raiz do cd
+```bash
+cp $HOME/Distro/chroot/boot/vmlinuz-* $HOME/Distro/antares/live/vmlinuz
+cp $HOME/Distro/chroot/boot/initrd.img-* $HOME/Distro/antares/live/initrd.lz
+```
 # Squashfs
 Regerando os arquivos, o filesystem.manifest e filesystem.squashfs
 ```bash
