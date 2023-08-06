@@ -290,7 +290,7 @@ sudo rm -r Distro
         &copy; Copyright <strong><span> Antares OS </span></strong> 2020 2023 All Rights Reserved
       </div>
       <div class="credits">
-      Sobre meu trabalho: <a href="https://jvmelo26.github.io/LinuxOS/">José Valdemir de Melo</a>
+      Meu primeiro repositório <a href="https://jvmelo26.github.io/LinuxOS/">José Valdemir de Melo</a>
       </div>
     </div>
   </footer>
