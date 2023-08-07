@@ -123,8 +123,8 @@ apt update && apt dist-upgrade -y
 Pacotes instalados por padrão no sistema preview
 ```bash
 apt-transport-https dkms linux-image-amd64 live-boot live-config gnome-shell gnome-software gnome-session \
-gnome-terminal nautilus network-manager-gnome mutter gdm3 xinit gnome-control-center xdg-user-dirs-gtk gedit \
-file-roller build-essential curl dbus-x11 wget genisoimage isolinux squashfs-tools openssl os-prober \
+gnome-terminal nautilus network-manager-gnome mutter gdm3 xinit gnome-control-center xdg-user-dirs-gtk \
+gedit file-roller build-essential curl dbus-x11 wget genisoimage isolinux squashfs-tools openssl os-prober \
 lsb-base grub-common grub2-common grub-efi-amd64 grub-efi-amd64-bin
 ```
 Instalar os drivers firmware-linux-nonfree
