@@ -134,7 +134,7 @@ efibootmgr linux-image-amd64 live-boot live-config squashfs-tools genisoimage is
 grub2-common grub-efi-amd64 grub-efi-amd64-bin wget os-prober gnome-accessibility-themes gnome-calendar \
 gnome-disk-utility gnome-shell gnome-shell-common gnome-shell-extension-prefs gnome-shell-extensions \
 gnome-software gnome-session gnome-tweaks nautilus mutter gdm3 xinit gnome-control-center \
-xdg-user-dirs-gtk gedit file-roller obs-studio telegram-desktop gnome-boxes
+xdg-user-dirs-gtk gedit file-roller telegram-desktop
 ```
 Instalar os drivers firmware-linux-nonfree
 ```bash
