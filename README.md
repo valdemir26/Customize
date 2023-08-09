@@ -6,8 +6,6 @@
 <img src="assets/img/antares.png" class="img-fluid" alt="">
 </p>
 
-# <p align="center">*Bem vindos Antarianos*</p>
-
 # <p align="center">_Como criar sua própria versão customizada do_ *GNU/Linux*</p>
 
 <a href="https://github.com/valdemir26/Customize/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-yellowgreen.svg?maxAge=2592000" alt="License" /></a>
