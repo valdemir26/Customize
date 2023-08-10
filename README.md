@@ -141,7 +141,7 @@ apt install calamares calamares-settings-debian
 # Excluir arquivos
 Caso tenha atualizado o kernel, use o comando a seguir
 ```bash
-apt remove --purge linux-image-amd64.xxx
+apt remove --purge linux-image-xxxx-amd64
 ```
 ### Instalar pacotes extras
 
@@ -173,7 +173,7 @@ Removendo arquivos temporários e finalizando o Chroot
 _Os arquivos temporários e o cache do APT, deve ser apagados para diminuir a ISO imagem a ser gerada. Neste ponto nós desmontaremos os filesystems e finalizar o chroot, pois apenas as tarefas de customização são necessárias neste ambiente, as terefas de criação da ISO devem ser feitas fora do chroot. Para remover os arquivos temporários e os outros arquivos que não serão mais necessários._
 Limpar o cache do APT
 ```bash
-apt autoclean
+apt clean
 ```
 Removendo os arquivos temporários
 ```bash
