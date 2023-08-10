@@ -138,6 +138,11 @@ Instalar o calamares
 ```bash
 apt install calamares calamares-settings-debian
 ```
+# Excluir arquivos
+Caso tenha atualizado o kernel, use o comando a seguir
+```bash
+apt remove --purge linux-image-amd64.xxx
+```
 ### Instalar pacotes extras
 
 Exemplo de instalação manual de programas extras, configuração e remoção
@@ -192,11 +197,6 @@ sudo umount -lf mnt
 # Excluir pastas temporárias
 ```bash
 sudo rm -r mnt && sudo rm -r squashfs
-```
-# Excluir arquivos
-Caso tenha atualizado o kernel, use o comando a seguir
-```bash
-sudo apt remove --purge linux-image-amd64.xxx
 ```
 Este comando exclue todos os arquivos da pasta live
 ```bash
