@@ -9,7 +9,7 @@
 # <p align="center">_Como criar sua própria versão customizada do_ *GNU/Linux*</p>
 
 <a href="https://github.com/valdemir26/Customize/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-GPLv3-yellowgreen.svg?maxAge=2592000" alt="License" /></a>
-[![iso](https://img.shields.io/badge/iso-images-cyan)](https://drive.google.com/file/d/18yz-AZveVyXlG_KAA_554tu40PSdfsia/view?usp=drive_link)
+[![iso](https://img.shields.io/badge/iso-images-cyan)](https://drive.google.com/file/d/1JloW2yNXVOJkP-a57qFFSMoT2_r0nIYi/view?usp=drive_link)
 
 # <p align="center">_Como funciona_</p>
 Escolhi utilizar o processo manual de customização do GNU/Linux, utilizando o rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
