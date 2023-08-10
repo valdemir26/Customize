@@ -194,7 +194,7 @@ sudo umount -lf mnt
 sudo rm -r mnt && sudo rm -r squashfs
 ```
 # Excluir arquivos
-Remover kernel se caso tenha sido atualizado
+Caso tenha atualizado o kernel, use o comando a seguir
 ```bash
 sudo apt remove --purge linux-image-amd64.xxx
 ```
