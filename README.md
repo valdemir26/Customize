@@ -195,9 +195,6 @@ sudo umount -lf squashfs
 sudo umount -lf mnt
 ```
 # Excluir pastas temporárias
-```bash
-sudo rm -r mnt && sudo rm -r squashfs
-```
 Este comando exclue todos os arquivos da pasta live
 ```bash
 sudo rm -r antares/live/*
