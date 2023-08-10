@@ -136,7 +136,7 @@ firmware-samsung firmware-siano firmware-sof-signed firmware-ti-connectivity fir
 ```
 Instalar o calamares
 ```bash
-apt install calamares calamares-settings-debian && rm -r chroot/usr/share/applications/calamares.desktop.orig
+apt install calamares calamares-settings-debian
 ```
 ### Instalar pacotes extras
 
@@ -208,6 +208,7 @@ sudo rm -r mnt && sudo rm -r squashfs
 ```
 Exclue vmlinuz e initrd
 ```bash
+sudo rm -r chroot/usr/share/applications/calamares.desktop.orig
 sudo rm -r chroot/vmlinuz && sudo rm -r chroot/vmlinuz.old
 sudo rm -r chroot/initrd.img && sudo rm -r chroot/initrd.img.old
 ```
