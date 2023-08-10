@@ -194,10 +194,14 @@ sudo umount -lf chroot/sys
 sudo umount -lf squashfs
 sudo umount -lf mnt
 ```
-# Excluir pastas temporárias
+# Excluir pastas e arquivos temporárias
 Este comando exclue todos os arquivos da pasta live
 ```bash
 sudo rm -r antares/live/*
+```
+Exclue a ISO temporária
+```bash
+sudo rm -r $HOME/Distro/*.iso
 ```
 Exclue pastas temporárias
 ```bash
