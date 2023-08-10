@@ -134,7 +134,6 @@ firmware-linux firmware-linux-free firmware-linux-nonfree firmware-misc-nonfree 
 firmware-netxen firmware-nvidia-tesla-gsp firmware-qcom-soc firmware-qlogic firmware-realtek firmware-realtek-rtl8723cs-bt \
 firmware-samsung firmware-siano firmware-sof-signed firmware-ti-connectivity firmware-zd1211
 ```
-# Calamares
 Instalar o calamares
 ```bash
 apt install calamares calamares-settings-debian && rm -r chroot/usr/share/applications/calamares.desktop.orig
