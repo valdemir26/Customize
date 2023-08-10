@@ -206,7 +206,7 @@ Exclue pastas temporárias
 ```bash
 sudo rm -r mnt && sudo rm -r squashfs
 ```
-Exclue vmlinuz e initrd
+Exclue vmlinuz e initrd e o lançador calamares
 ```bash
 sudo rm -r chroot/usr/share/applications/calamares.desktop.orig
 sudo rm -r chroot/vmlinuz && sudo rm -r chroot/vmlinuz.old
