@@ -141,7 +141,7 @@ apt install calamares calamares-settings-debian
 # Excluir arquivos
 Caso tenha atualizado o kernel, use o comando a seguir
 ```bash
-apt remove --purge linux-image-xxxx-amd64
+apt remove --purge linux-image-x.x.x-xx-amd64
 ```
 ### Instalar pacotes extras
 
