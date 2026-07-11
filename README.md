@@ -274,7 +274,7 @@ sudo rm -r Distro
         <a href="https://www.instagram.com/josevaldemir.melo/" class="instagram"><i class="bx bxl-instagram"></i></a> 
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span> Antares OS </span></strong> 2020 2023 All Rights Reserved
+        &copy; Copyright <strong><span> Antares OS </span></strong> 2020 2026 All Rights Reserved
       </div>
       <div class="credits">
       Sobre mim <a href="https://valdemir26.github.io/">José Valdemir de Melo</a>
