@@ -107,10 +107,10 @@ sudo nano /etc/apt/sources.list
 - [x] Com o comando cat
 ```bash
 cat > /etc/apt/sources.list << 'EOF'
-deb http://deb.debian.org/debian bookworm main non-free-firmware contrib non-free
-deb http://deb.debian.org/debian bookworm-updates main non-free-firmware contrib non-free
-deb http://deb.debian.org/debian bookworm-proposed-updates main non-free-firmware contrib non-free
-deb http://security.debian.org/debian-security/ bookworm-security main non-free-firmware contrib non-free
+deb http://deb.debian.org/debian trixie main non-free-firmware contrib non-free
+deb http://deb.debian.org/debian trixie-updates main non-free-firmware contrib non-free
+deb http://deb.debian.org/debian trixie-proposed-updates main non-free-firmware contrib non-free
+deb http://security.debian.org/debian-security/ trixie-security main non-free-firmware contrib non-free
 EOF
 ```
 # Atualizar o sistema
