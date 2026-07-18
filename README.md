@@ -12,7 +12,10 @@
 [![iso](https://img.shields.io/badge/ISO-Preview-cyan)](https://drive.google.com/file/d/1uTIjHajPz8hPq0f0CzOApD7pvqPWQoFR/view?usp=drive_link)
 
 # <p align="center">_Como funciona_</p>
-Escolhi utilizar o processo manual de customização do GNU/Linux, utilizando o rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
+Escolhi utilizar o processo manual de customização do GNU/Linux, utilizando o yad. rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
+
+As pessoas poderão criar versõespara distribuição entre amigos com a finalidade de divulgação do *Linux* ou como base de aprendizado.
+
 # <p align="center"> Requisito
 Computador (Desktop ou Notebook) com Linux instalado, porém sugiro utilizar a versão mais atual disponível.
 <p align="center">
