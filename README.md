@@ -149,7 +149,7 @@ Exemplo de instalação manual de programas extras, configuração e remoção
 ```bash
 cd home
 ```
-Baixar arquivos de outras fontes
+Instalando programas de fontes externas
 ```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
