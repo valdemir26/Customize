@@ -59,7 +59,7 @@ cp $Antares $HOME/Distro/
 * rsync sincroniza as pastas mnt com a pasta antares
 * Monta o sistema de arquivos na pasta squashfs
 * Copia os arquivos da pasta squashfs para a pasta chroot
-  ```bash
+```bash
 sudo mount -o loop *.iso mnt
 rsync --exclude=/live/filessystem.squashfs -a mnt/ antares
 sudo mount -t squashfs -o loop mnt/live/filesystem.squashfs squashfs
