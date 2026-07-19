@@ -22,8 +22,7 @@ Computador (Desktop ou Notebook) com Linux instalado, porém sugiro utilizar a v
 <p align="center">
 <a href="https://drive.google.com/file/d/1JsnFQbOECJqL1ez-Sh-7vx4cuRQvNifS/view?usp=drive_link"><img src="assets/img/download.svg" class="img-fluid" alt=""></p>  
  _Agora, vamos criar um diretório para manipular os arquivos que utilizaremos durante todo processo._
- _Para melhor entendimento do conteúdo aqui descrito, você deve baixar a ISO, esta ISO é só a base do debian 13.6_
-<p align="center">Para melhor entendimento do conteúdo aqui descrito, você deve baixar a ISO, esta ISO é só a base do debian 13.6</p> 
+ _Para melhor entendimento do conteúdo aqui descrito, você deve baixar a ISO, esta ISO é só a base do debian 13.6_ 
  
 # Live CD
 ### Pré-requisitos
