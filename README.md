@@ -66,10 +66,12 @@ sudo mount -t squashfs -o loop mnt/live/filesystem.squashfs squashfs
 sudo cp -a squashfs/* chroot/
 ```
 ### Configuração de ambiente para uso do chroot
-* Monta a ISO na pasta mnt
-* Copia os arquivos e sincroniza as pastas mnt com a pasta antares
-* Monta o sistema de arquivos na pasta squashfs
-* Copia os arquivos da pasta squashfs para a pasta chroot
+* Copia configuração de rede para o nosso sistema de customização
+* Copia configuração do localhost 127.0.0.1
+* Monta o /dev
+* Monta o /proc
+* Monta o /sys
+Agora vem a loucura, dá um chroot e ter acesso total a pasta de customização
 ```bash
 sudo cp /etc/resolv.conf chroot/etc/
 sudo cp /etc/hosts chroot/etc/
