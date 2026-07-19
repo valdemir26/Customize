@@ -21,7 +21,7 @@ Computador (Desktop ou Notebook) com Linux instalado, porém sugiro utilizar a v
 
 <p align="center">
 <a href="https://drive.google.com/file/d/1JsnFQbOECJqL1ez-Sh-7vx4cuRQvNifS/view?usp=drive_link"><img src="assets/img/download.svg" class="img-fluid" alt=""></p>  
-<p align="center">Para melhor entendimento do conteúdo aqui descrito, você deve baixar a ISO</p> 
+<p align="center">Para melhor entendimento do conteúdo aqui descrito, você deve baixar a ISO, esta ISO é só a base do debian 13.6 para ser usada em qualquer distro</p> 
  
 # Live CD
 ### Pré-requisitos
