@@ -36,7 +36,7 @@ Para virtualização
 ```bash
 sudo apt install gnome-boxes
 ```
-# Criar diretório 
+### Criar diretório 
 Cria o diretório e os subdiretórios
 ```bash
 mkdir -p $HOME/Distro/{chroot,antares/live,files}
@@ -46,7 +46,7 @@ Ativando o módulo do Kernel
 ```bash
 sudo modprobe squashfs
 ```
-# Copiar ISO
+### Copiar ISO
 Copia a ISO para o ambiente de customização
 ```bash
 Antares=$(yad --file --center --separator=" " --multiple --title "Escolha a ISO para copiar");
@@ -54,7 +54,7 @@ printf "%s\n" ${Antares}
 [ -z "$Antares" ] && { yad --error --center --title "Copiar" --text "Operação cancelada pelo usuário" 2>/dev/null;exit;}
 cp $Antares $HOME/Distro/
 ```
-# Extarir ISO
+### Extarir ISO
 * Monta a ISO na pasta mnt
 * Copia os arquivos e sincroniza as pastas mnt com a pasta antares
 * Monta o sistema de arquivos na pasta squashfs
