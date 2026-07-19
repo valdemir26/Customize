@@ -39,7 +39,7 @@ sudo apt install gnome-boxes
 ### Criar diretório 
 Cria o diretório e os subdiretórios
 ```bash
-mkdir -p $HOME/Distro/{antares,chroot,mnt,squashfs}
+mkdir -p $HOME/Distro/{mnt,extrct,squashfs,edit}
 cd Distro
 ```
 Ativando o módulo do Kernel
