@@ -84,7 +84,7 @@ sudo chroot chroot
 ### Permissão na pasta onde vai ser modificados os arquivos
 chmod 755 é a permissão mais usada em servidores de hospedagem de sites. Ele mantém o diretório e o arquivo seguros e protegidos, impedindo que terceiros façam alterações.
 ```bash
-sudo chmod -R 755 antares/
+sudo chmod -R 755 Distro/
 ```
 ### Executando chroot
 Configuração de ambiente para uso do chroot
