@@ -55,23 +55,20 @@ printf "%s\n" ${Antares}
 cp $Antares $HOME/Distro/
 ```
 # Extarir ISO
-Monta a ISO na pasta mnt
+* Monta a ISO na pasta mnt
+* Copia os arquivos e sincroniza as pastas mnt com a pasta antares
+* Monta o sistema de arquivos na pasta squashfs
+* Copia os arquivos da pasta squashfs para a pasta chroot
 ```bash
-sudo mount -o loop *.iso mnt
+sudo cp /etc/resolv.conf chroot/etc/
+sudo cp /etc/hosts chroot/etc/
+sudo mount --bind /dev chroot/dev
+sudo mount --bind /proc chroot/proc
+sudo mount --bind /sys chroot/sys
+sudo chroot chroot
 ```
-Copia os arquivos e sincroniza as pastas mnt com a pasta antares
-```bash
-rsync --exclude=/live/filessystem.squashfs -a mnt/ antares
-```
-Monta o sistema de arquivos na pasta squashfs
-```bash
-sudo mount -t squashfs -o loop mnt/live/filesystem.squashfs squashfs
-```
-Copia os arquivos da pasta squashfs para a pasta chroot
-```bash
-sudo cp -a squashfs/* chroot/
-```
-Permissão na pasta onde vai ser criado os novos arquivos
+
+# Permissão na pasta onde vai ser criado os novos arquivos
 ```bash
 sudo chmod -R 755 antares && sudo chmod -R 755 antares/
 ```
