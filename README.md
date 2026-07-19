@@ -8,7 +8,7 @@
 
 # <p align="center">_Como criar sua própria versão customizada do_ *GNU/Linux*</p>
 <p align="center">
-<a href="[https://github.com/valdemir26/Customize/blob/main/LICENSE](https://drive.google.com/file/d/1JsnFQbOECJqL1ez-Sh-7vx4cuRQvNifS/view?usp=drive_link)"><img src="assets/img/download.svg" class="img-fluid" alt="">
+<a href="https://drive.google.com/file/d/1JsnFQbOECJqL1ez-Sh-7vx4cuRQvNifS/view?usp=drive_link"><img src="assets/img/download.svg" class="img-fluid" alt="">
 </p>
 
 
