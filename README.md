@@ -18,9 +18,9 @@ Computador (Desktop ou Notebook) com Linux instalado, porém sugiro utilizar a v
 <p align="center">
 <img src="assets/img/gnome.png" class="img-fluid" alt="">
 </p>
-Para melhor entendimento do conteúdo aqui descrito, você deve baixar a ISO.
+
 <p align="center">
-<a href="https://drive.google.com/file/d/1JsnFQbOECJqL1ez-Sh-7vx4cuRQvNifS/view?usp=drive_link"><img src="assets/img/download.svg" class="img-fluid" alt=""></p>  
+<a href="https://drive.google.com/file/d/1JsnFQbOECJqL1ez-Sh-7vx4cuRQvNifS/view?usp=drive_link"><img src="assets/img/download.svg" class="img-fluid" alt="">Para melhor entendimento do conteúdo aqui descrito, você deve baixar a ISO</p>  
  
 # Live CD
 ### Pré-requisitos
