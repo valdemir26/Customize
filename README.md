@@ -68,11 +68,11 @@ sudo mount --bind /sys chroot/sys
 sudo chroot chroot
 ```
 
-# Permissão na pasta onde vai ser criado os novos arquivos
+### Permissão na pasta onde vai ser criado os novos arquivos
 ```bash
 sudo chmod -R 755 antares && sudo chmod -R 755 antares/
 ```
-# Executando chroot
+### Executando chroot
 Configuração de ambiente para uso do chroot
 Copia o arquivo /etc/resolv.conf para chroot/etc/
 ```bash
@@ -98,7 +98,7 @@ Agora vamos fazer chroot na pasta de customização
 ```bash
 sudo chroot chroot
 ```
-# Adicionando repositório
+### Adicionando repositório
 Aqui eu vou mostrar duas opçoẽs de edição do sources.list
 - [ ]  Editor nano
 ```bash
@@ -113,7 +113,7 @@ deb http://deb.debian.org/debian trixie-proposed-updates main non-free-firmware 
 deb http://security.debian.org/debian-security/ trixie-security main non-free-firmware contrib non-free
 EOF
 ```
-# Atualizar o sistema
+### Atualizar o sistema
 Atualizar o sistema
 ```bash
 apt update && apt dist-upgrade -y
@@ -138,7 +138,7 @@ Instalar o calamares
 ```bash
 apt install calamares calamares-settings-debian
 ```
-# Excluir arquivos
+### Excluir arquivos
 Caso tenha atualizado o kernel, use o comando a seguir
 ```bash
 apt remove --purge linux-image-x.x.x-xx-amd64
@@ -181,11 +181,11 @@ rm -rf /tmp/* ~/.bash.history
 rm /etc/resolv.conf
 rm /etc/hosts
 ```
-# Finalizar chroot
+### Finalizar chroot
 ```bash
 exit
 ```
-# Desmontar filesystems
+### Desmontar filesystems
 Desmontar os filesystems de customização não nescessários e finalizar o chroot
 ```bash
 sudo umount -lf chroot/dev
@@ -194,7 +194,7 @@ sudo umount -lf chroot/sys
 sudo umount -lf squashfs
 sudo umount -lf mnt
 ```
-# Excluir pastas e arquivos temporárias
+### Excluir pastas e arquivos temporárias
 Este comando exclue todos os arquivos da pasta live
 ```bash
 sudo rm -r antares/live/*
@@ -218,7 +218,7 @@ Copiar o vmlinuz e o initrd para a pasta live na raiz do cd
 cp $HOME/Distro/chroot/boot/vmlinuz-* $HOME/Distro/antares/live/vmlinuz
 cp $HOME/Distro/chroot/boot/initrd.img-* $HOME/Distro/antares/live/initrd.lz
 ```
-# Squashfs
+### Squashfs
 Regerando os arquivos, o filesystem.manifest e filesystem.squashfs
 ```bash
 chmod +w antares/live/filesystem.manifest
@@ -227,7 +227,7 @@ sudo cp antares/live/filesystem.manifest antares/live/filesystem.manifest
 sudo rm antares/live/filesystem.squashfs
 sudo mksquashfs chroot antares/live/filesystem.squashfs -comp xz
 ```
-# MD5sum
+### MD5sum
 Criar o MD5sum
 ```bash
 cd antares
@@ -236,7 +236,7 @@ find -type f -print0 | xargs -0 md5sum | grep -v isolinux/boot.cat | tee md5sum.
 cd
 cd Distro
 ```
-# Imagem ISO
+### Imagem ISO
 Criando a imagem ISO com genisoimage
 ```bash
 genisoimage \
