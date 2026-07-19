@@ -162,14 +162,11 @@ Limpar o cache do APT
 ```bash
 apt clean
 ```
-Removendo os arquivos temporários
+Removendo os arquivos temporários e finslizando o chroot
 ```bash
 rm -rf /tmp/* ~/.bash.history
 rm /etc/resolv.conf
 rm /etc/hosts
-```
-### Finalizar chroot
-```bash
 exit
 ```
 ### Desmontar filesystems
