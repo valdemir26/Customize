@@ -7,7 +7,7 @@
 </p>
 
 # <p align="center">_Como criar sua própria versão customizada do_ *GNU/Linux*</p>
-
+<img src="assets/img/antares.png" class="img-fluid" alt="">
 ![ISO Download](src="assets/img/antares.png")
 <a href="https://github.com/valdemir26/Customize/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-yellowgreen.svg?maxAge=2592000" alt="License" /></a>
 Baixe a **ISO** [Google Drive]([https://www.google.co](https://drive.google.com/file/d/1JsnFQbOECJqL1ez-Sh-7vx4cuRQvNifS/view?usp=drive_link) esta ISO é apenas a base do Debian 13.6 como material didático, os arquivos nescessário estão a seguir.
