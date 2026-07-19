@@ -7,10 +7,6 @@
 </p>
 
 # <p align="center">_Como criar sua própria versão customizada do_ *GNU/Linux*</p>
-<p align="center">
-<a href="https://drive.google.com/file/d/1JsnFQbOECJqL1ez-Sh-7vx4cuRQvNifS/view?usp=drive_link"><img src="assets/img/download.svg" class="img-fluid" alt="">
-</p>
-
 
 # <p align="center">_Como funciona_</p>
 Escolhi utilizar o processo manual de customização do GNU/Linux, utilizando o yad. rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
@@ -22,8 +18,9 @@ Computador (Desktop ou Notebook) com Linux instalado, porém sugiro utilizar a v
 <p align="center">
 <img src="assets/img/gnome.png" class="img-fluid" alt="">
 </p>
-Para melhor entendimento do conteúdo aqui descrito, você deve usar a ISO que está no título do Readme.
-  
+Para melhor entendimento do conteúdo aqui descrito, você deve baixar a ISO.
+<p align="center">
+<a href="https://drive.google.com/file/d/1JsnFQbOECJqL1ez-Sh-7vx4cuRQvNifS/view?usp=drive_link"><img src="assets/img/download.svg" class="img-fluid" alt=""></p>  
 # Live CD
 ### Pré-requisitos
 
