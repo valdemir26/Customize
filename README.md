@@ -118,7 +118,7 @@ Atualizar o sistema
 ```bash
 apt update && apt dist-upgrade -y
 ```
-Pacotes instalados por padrão no sistema preview
+Pacotes a serem instalados para o sistema preview, para instalação do sistema use o calamares
 ```bash
 apt-transport-https build-essential btrfs-progs curl dbus-x11 dosfstools dkms rsync e2fsprogs exfatprogs efibootmgr \
 linux-image-amd64 live-boot live-config squashfs-tools genisoimage isolinux lsb-base grub-common grub2-common \
@@ -139,7 +139,7 @@ Instalar o calamares
 apt install calamares calamares-settings-debian
 ```
 ### Excluir arquivos
-Caso tenha atualizado o kernel, use o comando a seguir
+Caso tenha alterado o kernel, use o comando a seguir
 ```bash
 apt remove --purge linux-image-x.x.x-xx-amd64
 ```
