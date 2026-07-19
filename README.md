@@ -65,6 +65,11 @@ rsync --exclude=/live/filessystem.squashfs -a mnt/ antares
 sudo mount -t squashfs -o loop mnt/live/filesystem.squashfs squashfs
 sudo cp -a squashfs/* chroot/
 ```
+### Permissão na pasta onde vai ser modificados os arquivos
+chmod 755 é a permissão mais usada em servidores de hospedagem de sites. Ele mantém o diretório e o arquivo seguros e protegidos, impedindo que terceiros façam alterações.
+```bash
+sudo chmod -R 755 antares/
+```
 ### Configuração de ambiente para uso do chroot
 * Copia configuração de rede para o nosso sistema de customização
 * Copia configuração do localhost 127.0.0.1
@@ -79,12 +84,6 @@ sudo mount --bind /dev chroot/dev
 sudo mount --bind /proc chroot/proc
 sudo mount --bind /sys chroot/sys
 sudo chroot chroot
-```
-
-### Permissão na pasta onde vai ser modificados os arquivos
-chmod 755 é a permissão mais usada em servidores de hospedagem de sites. Ele mantém o diretório e o arquivo seguros e protegidos, impedindo que terceiros façam alterações.
-```bash
-sudo chmod -R 755 Distro/
 ```
 ### Executando chroot
 Configuração de ambiente para uso do chroot
