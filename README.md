@@ -54,6 +54,17 @@ printf "%s\n" ${Antares}
 [ -z "$Antares" ] && { yad --error --center --title "Copiar" --text "Operação cancelada pelo usuário" 2>/dev/null;exit;}
 cp $Antares $HOME/Distro/
 ```
+### Extrai os arquivos da ISO
+* Monta a ISO e faz um loop na pasta mnt
+* rsync sincroniza as pastas mnt com a pasta antares
+* Monta o sistema de arquivos na pasta squashfs
+* Copia os arquivos da pasta squashfs para a pasta chroot
+  ```bash
+sudo mount -o loop *.iso mnt
+rsync --exclude=/live/filessystem.squashfs -a mnt/ antares
+sudo mount -t squashfs -o loop mnt/live/filesystem.squashfs squashfs
+sudo cp -a squashfs/* chroot/
+```
 ### Configuração de ambiente para uso do chroot
 * Monta a ISO na pasta mnt
 * Copia os arquivos e sincroniza as pastas mnt com a pasta antares
