@@ -85,32 +85,6 @@ sudo mount --bind /proc chroot/proc
 sudo mount --bind /sys chroot/sys
 sudo chroot chroot
 ```
-### Executando chroot
-Configuração de ambiente para uso do chroot
-Copia o arquivo /etc/resolv.conf para chroot/etc/
-```bash
-sudo cp /etc/resolv.conf chroot/etc/
-```
-Copia o arquivo /etc/hosts para chroot/etc/
-```bash
-sudo cp /etc/hosts chroot/etc/
-```
-Monta o /dev em chroot/dev
-```bash
-sudo mount --bind /dev chroot/dev
-```
-Monta o /proc em chroot/proc
-```bash
-sudo mount --bind /proc chroot/proc
-```
-Monta o /sys em chroot/sys
-```bash
-sudo mount --bind /sys chroot/sys
-```
-Agora vamos fazer chroot na pasta de customização
-```bash
-sudo chroot chroot
-```
 ### Adicionando repositório
 Aqui eu vou mostrar duas opçoẽs de edição do sources.list
 - [ ]  Editor nano
