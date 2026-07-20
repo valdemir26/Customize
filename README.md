@@ -126,9 +126,10 @@ Instalar o calamares
 apt install calamares calamares-settings-debian
 ```
 ### Excluir arquivos
-Caso tenha alterado o kernel, use o comando a seguir
+Caso tenha alterado o kernel, use os comando a seguir
 ```bash
-apt remove --purge linux-image-x.x.x-xx-amd64
+cp $HOME/Distro/chroot/boot/vmlinuz-* $HOME/Distro/antares/live/vmlinuz
+cp $HOME/Distro/chroot/boot/initrd.img-* $HOME/Distro/antares/live/initrd.lz
 ```
 ### Instalar pacotes extras
 
