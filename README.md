@@ -128,8 +128,8 @@ apt install calamares calamares-settings-debian
 ### Excluir arquivos
 Caso tenha atualizado o kernel, use os comando a seguir
 ```bash
-cp $HOME/Distro/chroot/vmlinuz.* $HOME/Distro/antares/live/vmlinuz
-cp $HOME/Distro/chroot/initrd.img.* $HOME/Distro/antares/live/initrd.lz
+cp $HOME/Distro/chroot/vmlinuz.old $HOME/Distro/antares/live/vmlinuz
+cp $HOME/Distro/chroot/initrd.img.old $HOME/Distro/antares/live/initrd.lz
 ```
 ### Instalar pacotes extras
 
