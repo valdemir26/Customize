@@ -6,7 +6,7 @@
 <img src="assets/img/antares.png" class="img-fluid" alt="">
 </p>
 
-# <p align="center">_Como criar sua própria versão customizada do_ *GNU/Linux*</p>
+<p align="center">_Como criar sua própria versão customizada do_ *GNU/Linux*</p>
 
 # <p align="center">_Como funciona_</p>
 Escolhi utilizar o processo manual de customização do GNU/Linux utilizando o yad, rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
