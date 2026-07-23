@@ -11,7 +11,7 @@
 # <p align="center">_Como funciona_</p>
 Escolhi utilizar o processo manual de customização do GNU/Linux utilizando o yad, rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
 
-As pessoas poderão criar versõespara distribuição entre amigos com a finalidade de divulgação do *Linux* ou como base de aprendizado.
+As pessoas poderão criar versões para distribuição entre amigos com a finalidade de divulgação do *Linux* ou como base de aprendizado.
 
 # <p align="center"> Requisito
 Computador (Desktop ou Notebook) com Linux instalado, porém sugiro utilizar a versão mais atual disponível.
