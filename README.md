@@ -9,7 +9,7 @@
 # <p align="center">_Como criar sua própria versão customizada do_ *GNU/Linux*</p>
 
 # <p align="center">_Como funciona_</p>
-Escolhi utilizar o processo manual de customização do GNU/Linux, utilizando o yad. rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
+Escolhi utilizar o processo manual de customização do GNU/Linux, utilizando o yad, rsync, zenity, squashfs-tools, chroot e genisoimage, é simples, você usa a própria distribuição instalada como base, sem aplicativos extras, que às vezes é incompatível dependendo da distribuição.
 
 As pessoas poderão criar versõespara distribuição entre amigos com a finalidade de divulgação do *Linux* ou como base de aprendizado.
 
